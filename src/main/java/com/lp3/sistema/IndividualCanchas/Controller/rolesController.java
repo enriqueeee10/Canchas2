@@ -6,18 +6,18 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.lp3.sistema.IndividualCanchas.Services.RolesServices;
 import com.lp3.sistema.IndividualCanchas.model.Roles;
-import com.lp3.sistema.IndividualCanchas.repository.RolRepository;
 
 @RestController
 @RequestMapping("/rol")
 public class rolesController {
-	
+    
     @Autowired
-    RolRepository rolRepo;
+    RolesServices rolesServices;
 
     @PostMapping("/nuevorol")
     public void nuevoRol(@RequestBody Roles rol) {
-        rolRepo.save(rol);
+        rolesServices.registrarRol(rol);
     }
 }

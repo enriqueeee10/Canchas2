@@ -67,10 +67,6 @@
 									<a href="/listarcliente"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de
 										clientes</a>
 								</li>
-								<li>
-									<a href="/buscarcliente"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar
-										cliente</a>
-								</li>
 							</ul>
 						</li>
 
@@ -83,10 +79,6 @@
 								</li>
 								<li>
 									<a href="/listarcanchas"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de
-										Canchas</a>
-								</li>
-								<li>
-									<a href="/buscarcanchas"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar
 										Canchas</a>
 								</li>
 							</ul>
@@ -125,10 +117,6 @@
 									<a href="/listarusuario"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de
 										usuarios</a>
 								</li>
-								<li>
-									<a href="/buscarusuario"><i class="fas fa-search fa-fw"></i> &nbsp; Buscar
-										usuario</a>
-								</li>
 							</ul>
 						</li>
 
@@ -156,11 +144,6 @@
 				<h3 class="text-left">
 					<i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE CANCHAS
 				</h3>
-				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum delectus eos enim numquam fugit
-					optio accusantium, aperiam eius facere architecto facilis quibusdam asperiores veniam omnis saepe
-					est et, quod obcaecati.
-				</p>
 			</div>
 			<div class="container-fluid">
 				<ul class="full-box list-unstyled page-nav-tabs">
@@ -170,9 +153,6 @@
 					<li>
 						<a class="active" href="/listarcanchas"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA
 							DE CANCHAS</a>
-					</li>
-					<li>
-						<a href="/buscarcanchas"><i class="fas fa-search fa-fw"></i> &nbsp; BUSCAR CANCHAS</a>
 					</li>
 				</ul>
 			</div>
@@ -205,7 +185,8 @@
 							        </a>
 							    </td>
 							    <td>
-							        <button type="button" class="btn btn-warning delete-btn" data-id="${cancha.idcanchafutbol}">
+							        <button type="button" class="btn btn-warning delete-btn" 
+									data-id="${cancha.idcanchafutbol}">
 							            <i class="far fa-trash-alt"></i>
 							        </button>
 							    </td>
@@ -256,6 +237,7 @@
 
 	<script src="./js/main.js"></script>
 	<script src="./js/listCanchas.js"></script>
+	
 </body>
 
 </html>
