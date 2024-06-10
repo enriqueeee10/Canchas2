@@ -1,0 +1,14 @@
+.bg-image {
+    background-image: url('https://th.bing.com/th/id/R.4ef4d0689f8c25351e51a223e084ed29?rik=QVaGZGkskv%2fBPw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-q11rITGRRag%2fWMDnW8qFiSI%2fAAAAAAAAD90%2f9fvxhkfRHNMAK6cjmFf3yqvnj6M8BpgQQCK4B%2fs1600%2fcanchas-de-futbol-14.jpg&ehk=BSnjf1D0yLRzylSN%2f8dzyI3jE%2fqs4XoafwobbIW0SoA%3d&risl=&pid=ImgRaw&r=0');
+    height: 100vh;
+    
+  }
+
+  @media (min-width: 576px) {
+    .form-container {
+      width: 25rem;
+      margin-left: 5px;
+    }
+  }
+  
+  
